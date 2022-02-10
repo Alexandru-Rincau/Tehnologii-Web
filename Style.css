@@ -1,0 +1,52 @@
+.imgWidth{
+    width: 600px;
+}
+.textSize{
+    font-size: 20px;
+}
+.alignRight{
+    float:right;
+}
+.imgWidth2 {
+    width: 700px;
+}
+.imgWidth3 {
+    width: 350px;
+    border: 10px solid;
+    border-color: white;
+}
+.alignLeft{
+    float:left;
+}
+.table{
+    font-size: 20px;
+    width: 50%;
+
+}
+th{
+    text-align: center;
+    border: 2px solid;
+    height: 70px;
+    background: lightcyan;
+    border-color: white;
+}
+td{
+    text-align: left;
+    border: 2px solid;
+    height: 33px;
+    background: lightcyan;
+    border-color: white;
+}
+.table2{
+    float: left;
+    font-size: 20px;
+    width: 40%;
+
+}
+.table3{
+    float: right;
+    font-size: 20px;
+    width: 55%;
+
+}
+
