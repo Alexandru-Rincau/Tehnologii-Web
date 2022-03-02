@@ -1,6 +1,16 @@
 .imgWidth{
     width: 600px;
 }
+
+.logoWidth{
+    width: 300px;
+}
+
+.bannerWidth{
+    height:600px;
+    width: 100%;
+}
+
 .textSize{
     font-size: 20px;
 }
@@ -8,19 +18,22 @@
     float:right;
 }
 .imgWidth2 {
-    width: 700px;
+    width: 600px;
 }
 .imgWidth3 {
-    width: 350px;
+    width: 300px;
     border: 10px solid;
     border-color: white;
 }
 .alignLeft{
     float:left;
 }
+
 .table{
     font-size: 20px;
     width: 50%;
+
+    margin-left: 500px;
 
 }
 th{
@@ -50,3 +63,29 @@ td{
 
 }
 
+.font{
+    font-size: 27px ;
+}
+.hv:hover {
+    color: #CE242B;
+    text-decoration: underline;
+}
+
+.ul {
+    padding-bottom: 60px;
+}
+
+.text{
+    margin-right: 350px;
+    margin-left: 350px;
+}
+
+.h{
+    margin-left: 750px;
+    padding-top: 760px;
+}
+
+.h2{
+    margin-left: 750px;
+
+}
