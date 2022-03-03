@@ -22,8 +22,7 @@
 }
 .imgWidth3 {
     width: 300px;
-    border: 10px solid;
-    border-color: white;
+    border: 10px solid white;
 }
 .alignLeft{
     float:left;
@@ -37,17 +36,15 @@
 }
 th{
     text-align: center;
-    border: 2px solid;
     height: 70px;
     background: lightcyan;
-    border-color: white;
+    border: 2px solid white;
 }
 td{
     text-align: left;
-    border: 2px solid;
     height: 33px;
     background: lightcyan;
-    border-color: white;
+    border: 2px solid white;
 }
 .table2{
     float: left;
