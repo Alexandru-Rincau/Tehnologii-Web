@@ -4,26 +4,34 @@
 
 .logoWidth{
     width: 300px;
+    margin-top: 15px;
+    align-content: start;
+    margin-right: 2000px;
 }
 
 .bannerWidth{
     height:600px;
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .textSize{
     font-size: 20px;
 }
+
 .alignRight{
     float:right;
 }
+
 .imgWidth2 {
     width: 600px;
 }
+
 .imgWidth3 {
     width: 300px;
     border: 10px solid white;
 }
+
 .alignLeft{
     float:left;
 }
@@ -34,24 +42,44 @@
     margin-left: 500px;
 
 }
-th{
+
+.table th{
     text-align: center;
     height: 70px;
     background: lightcyan;
     border: 2px solid white;
 }
-td{
+
+.table td{
     text-align: left;
     height: 33px;
     background: lightcyan;
     border: 2px solid white;
 }
+
+
+
 .table2{
     float: left;
     font-size: 20px;
     width: 40%;
 
 }
+
+.table2 th{
+    text-align: center;
+    height: 70px;
+    background: lightcyan;
+    border: 2px solid white;
+}
+
+.table2 td{
+    text-align: left;
+    height: 33px;
+    background: lightcyan;
+    border: 2px solid white;
+}
+
 .table3{
     float: right;
     font-size: 20px;
@@ -59,16 +87,22 @@ td{
 
 }
 
-.font{
-    font-size: 27px ;
-}
-.hv:hover {
-    color: #CE242B;
-    text-decoration: underline;
+.table3 th{
+    text-align: center;
+    height: 70px;
+    background: lightcyan;
+    border: 2px solid white;
 }
 
-.ul {
-    padding-bottom: 60px;
+.table3 td{
+    text-align: left;
+    height: 33px;
+    background: lightcyan;
+    border: 2px solid white;
+}
+
+.font{
+    font-size: 27px ;
 }
 
 .text{
@@ -78,10 +112,55 @@ td{
 
 .h{
     margin-left: 750px;
-    padding-top: 760px;
+
 }
 
 .h2{
     margin-left: 750px;
 
+}
+
+.menu{
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li a{
+    display:block;
+    background: #ececed;
+    padding: 15px 30px 15px;
+    font-size: 35px;
+    text-decoration: none;
+
+    color: #4D4D4D;
+}
+
+.menu li a:hover{
+    background: #4D4D4D;
+    color:#ffff;
+}
+
+.menu ul li{
+    border-left: 1px solid #4D4D4D;
+}
+
+.menu ul li:first-child{
+    border-left: 1px solid #4D4D4D;
+}
+
+.menu  ul li:last-child{
+    border-right: 1px solid #4D4D4D;
+}
+
+.link tr td{
+    font-size: 27px;
+    padding-bottom: 50px;
+    background: cyan;
+    float:left;
 }
