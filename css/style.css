@@ -1,3 +1,4 @@
+
 .imgWidth{
     width: 600px;
 }
@@ -16,7 +17,7 @@
 }
 
 .textSize{
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .alignRight{
@@ -28,7 +29,84 @@
 }
 
 .imgWidth3 {
+    width: 150px;
+    border: 10px solid white;
+}
+
+.imgWidth4{
+    width: 250px;
+    border: 2px solid #00BFFF;
+    justify-content: center;
+}
+
+.imgWidth5{
+    width: 450px;
+    border: 2px solid #00BFFF;
+    margin-left: 370px;
+}
+
+.imgWidth6{
+    width: 450px;
+    border: 2px solid #00BFFF;
+    float: right;
+    margin-top: 28px;
+}
+
+.imgWidth8{
+    width: 700px;
+    margin-left: 160px;
+}
+
+.imgWidth7{
+    width: 700px;
+    margin-left: 160px;
+    margin-bottom: 50px;
+}
+
+.imgWidth0{
     width: 300px;
+    float: right;
+    margin-right: 170px;
+    margin-top: 10px;
+}
+
+.imgWidth10{
+    width: 300px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 110px;
+    margin-bottom: 50px;
+}
+
+.imgWidth11{
+    width: 300px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 110px;
+    margin-bottom: 50px;
+}
+
+.hu-imgWidth{
+    width: 550px;
+    float: right;
+    margin-right: 110px;
+}
+
+.hu-imgWidth2{
+    width: 450px;
+    margin-left: 90px;
+    margin-top: 60px;
+
+}
+
+.hu-imgWidth3{
+    width: 450px;
+    margin-top: 28px;
+    margin-left: 120px;
+}
+
+.or-imgWidth{
+    width: 350px;
     border: 10px solid white;
 }
 
@@ -38,8 +116,9 @@
 
 .table{
     font-size: 20px;
-    width: 50%;
-    margin-left: 500px;
+    width: 60%;
+    margin-left: 180px;
+    float: left;
 
 }
 
@@ -56,8 +135,6 @@
     background: lightcyan;
     border: 2px solid white;
 }
-
-
 
 .table2{
     float: left;
@@ -104,8 +181,10 @@
 }
 
 .text{
-    margin-right: 350px;
-    margin-left: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65em;
+
 }
 
 .h{
@@ -157,10 +236,15 @@
 
 .menu li ul{
     position: absolute;
-    min-width: 150px;
     display: none;
     list-style: none;
 }
+.menu li:hover ul{
+    display: block;
+}
+
+
+
 
 .menu li ul li{
     border: 1px solid #c7c8ca;
@@ -173,11 +257,5 @@
 .menu li ul li a{
     padding: 10px;
     text-transform: none;
-    font-size: 30px;
+    font-size: 25px;
 }
-
-.menu li:hover ul{
-    display: block;
-}
-
-
