@@ -62,8 +62,8 @@
 .table2{
     float: left;
     font-size: 20px;
-    width: 40%;
-
+    width: 50%;
+    margin-left: 500px;
 }
 
 .table2 th{
@@ -74,17 +74,15 @@
 }
 
 .table2 td{
-    text-align: left;
     height: 33px;
     background: lightcyan;
     border: 2px solid white;
 }
 
 .table3{
-    float: right;
     font-size: 20px;
-    width: 55%;
-
+    width: 50%;
+    margin-left: 500px;
 }
 
 .table3 th{
@@ -120,11 +118,6 @@
 
 }
 
-.menu{
-    margin: 0;
-    padding: 0;
-}
-
 .menu ul{
     list-style: none;
     display: flex;
@@ -137,7 +130,6 @@
     padding: 15px 30px 15px;
     font-size: 35px;
     text-decoration: none;
-
     color: #4D4D4D;
 }
 
@@ -150,11 +142,7 @@
     border-left: 1px solid #4D4D4D;
 }
 
-.menu ul li:first-child{
-    border-left: 1px solid #4D4D4D;
-}
-
-.menu  ul li:last-child{
+.menu ul li:last-child{
     border-right: 1px solid #4D4D4D;
 }
 
@@ -164,3 +152,32 @@
     background: cyan;
     float:left;
 }
+
+/*Sub menu*/
+
+.menu li ul{
+    position: absolute;
+    min-width: 150px;
+    display: none;
+    list-style: none;
+}
+
+.menu li ul li{
+    border: 1px solid #c7c8ca;
+}
+
+.menu li ul li:last-child{
+    border-right: 1px solid #c7c8ca;
+}
+
+.menu li ul li a{
+    padding: 10px;
+    text-transform: none;
+    font-size: 30px;
+}
+
+.menu li:hover ul{
+    display: block;
+}
+
+
