@@ -243,9 +243,6 @@
     display: block;
 }
 
-
-
-
 .menu li ul li{
     border: 1px solid #c7c8ca;
 }
@@ -256,6 +253,5 @@
 
 .menu li ul li a{
     padding: 10px;
-    text-transform: none;
     font-size: 25px;
 }
