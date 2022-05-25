@@ -6,29 +6,30 @@
     <link href="../css/style.css" rel="stylesheet">
 </head>
 <body>
-   <a href="../index.html">
-      <img src="../img/history-title.jpg" class="logoWidth alignLeft" alt="Logotip">
-   </a>
-   <img src="../img/banner.jpg" class="bannerWidth alignLeft"  alt="Banner">
+<script src="../js/scripts.js"></script>
+<a href="../index.php">
+    <img src="../img/history-title.jpg" class="logoWidth alignLeft" alt="Logotip">
+</a>
+<img src="../img/banner.jpg" class="bannerWidth alignLeft" alt="Banner">
 
-   <nav class="menu">
-       <ul>
-           <li><a href="../html/page-eu.html">Uniunea Europeană</a>
-               <ul>
-                   <li><a href="../html/page-eu-ist.html">Istoria Uniunii Europene</a>
-                   <li><a href="../html/page-eu-sity.html">10 cele mai mari orașe</a>
-               </ul>
-           <li><a href="../html/page-hu.html">Ungaria</a>
-               <ul>
-                   <li><a href="../html/page-hu-regat.html">Regatul ungar</a>
-                   <li><a href="../html/page-hu-sity.html">Orașele principale din Ungaria</a>
-               </ul>
-           <li><a href="../html/page-ordin.html">Ordinul Templierilor</a>
-               <ul>
-                   <li><a href="../html/page-ist-temp.html">Istoria Templierilor</a>
-               </ul>
-       </ul>
-   </nav>
+<nav class="menu">
+    <ul>
+        <li><a href="../php2/page-eu.php">Uniunea Europeană</a>
+            <ul>
+                <li><a href="page-eu-ist.php">Istoria Uniunii Europene</a>
+                <li><a href="../php2/page-eu-sity.php">10 cele mai mari orașe</a>
+            </ul>
+        <li><a href="../php2/page-hu.php">Ungaria</a>
+            <ul>
+                <li><a href="../php2/page-hu-regat.php">Regatul ungar</a>
+                <li><a href="../php2/page-hu-sity.php">Orașele principale din Ungaria</a>
+            </ul>
+        <li><a href="../php2/page-ordin.php">Ordinul Templierilor</a>
+            <ul>
+                <li><a href="page-ist-temp.php">Istoria Templierilor</a>
+            </ul>
+    </ul>
+</nav>
 
    <h1 class="h2">Istoria Templierilor</h1>
    <p class="text textSize">
@@ -57,6 +58,15 @@
        confirmare a puterii lor, care se pare ca a fost susținută de patronul Ordinului, Bernard de Clairvaux, pentru că l-a ajutat pe Papa Inocențiu
        să conducă biserica Catolică.
    </p>
+
+
+<button class="select" type="button" onclick="loadXMLDoc()">Războaiele templierilor</button>
+<br><br>
+<table class="table4" id="demo"></table>
+
+<script>
+
+</script>
 
 </body>
 </html>

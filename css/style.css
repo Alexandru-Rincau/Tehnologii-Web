@@ -176,6 +176,28 @@
     border: 2px solid white;
 }
 
+.table4{
+    font-size: 20px;
+    width: 50%;
+    margin-left: 180px;
+    float: left;
+
+}
+
+.table4 th{
+    text-align: center;
+    height: 40px;
+    background: lightcyan;
+    border: 2px solid white;
+}
+
+.table4 td{
+    text-align: left;
+    height: 33px;
+    background: lightcyan;
+    border: 2px solid white;
+}
+
 .font{
     font-size: 27px ;
 }
@@ -254,4 +276,141 @@
 .menu li ul li a{
     padding: 10px;
     font-size: 25px;
+}
+
+.quiz{
+    margin-left: 200px;
+    font-size: 50px;
+
+}
+
+.quiz-quest,.quiz-ind{
+    margin-bottom: 20px;
+    font-size: 50px;
+
+}
+
+.quiz-quest-item-quest,.quiz-res-item-quest{
+    margin-bottom: 20px;
+    font-size: 50px;
+
+}
+
+.quiz-quest-item-answ,.quiz-res-item-answ{
+    padding: 0;
+    margin-bottom: 50px;
+    list-style-type: none;
+
+}
+
+.quiz-int{
+
+}
+
+.quiz-res{
+    display: none;
+}
+
+.btn-next{
+    height: 50px;
+    width:150px;
+    font-size: 30px;
+}
+
+.btn-GetAnsw{
+    display: none;
+    height: 80px;
+    width: 180px;
+    font-size: 30px;
+}
+
+.btn-restart{
+    display: none;
+    height: 50px;
+    width:150px;
+    font-size: 30px;
+}
+
+.quest--hidden,
+.ind--hidden,
+.btn-next--hidden{
+    display:none;
+}
+
+.res--visible,
+.btn-restart--visible{
+    display:block;
+}
+
+.answ--invalid {
+    color: #8B0000;
+    font-weight: bold;
+}
+
+.answ--valid {
+    color: green;
+    font-weight: bold;
+}
+
+input[type="radio"] {
+    
+    -webkit-transform: scale(2.5);
+
+}
+
+.test {
+    margin-left:105px;
+    margin-right:1635px;
+    font-size:50px;
+    display:block;
+    background: #ececed;
+    padding: 15px 30px 15px;
+    text-decoration: none;
+    color: #4D4D4D;
+
+}
+
+.form {
+    float:right;
+    margin-right:205px;
+    font-size:30px;
+    display:block;
+    background: #ececed;
+    padding: 15px 30px 15px;
+    text-decoration: none;
+    color: #4D4D4D;
+
+}
+
+.form1 {
+    float:left;
+    font-size:30px;
+    display:block;
+    background: #ececed;
+    padding: 15px 30px 15px;
+    text-decoration: none;
+    color: #4D4D4D;
+
+}
+
+.form2 {
+    float:left;
+    margin-left:105px;
+    font-size:30px;
+    display:block;
+    background: #ececed;
+    padding: 15px 30px 15px;
+    text-decoration: none;
+    color: #4D4D4D;
+
+}
+
+.input {
+    font-size:20px;
+
+}
+
+.select {
+    font-size:20px;
+
 }
