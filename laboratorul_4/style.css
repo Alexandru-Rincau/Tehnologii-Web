@@ -1,0 +1,44 @@
+.form {
+    float:right;
+    margin-right:205px;
+    font-size:30px;
+    display:block;
+    background: #ececed;
+    padding: 15px 30px 15px;
+    text-decoration: none;
+    color: #4D4D4D;
+
+}
+
+.form1 {
+    float:left;
+    font-size:30px;
+    display:block;
+    background: #ececed;
+    padding: 15px 30px 15px;
+    text-decoration: none;
+    color: #4D4D4D;
+
+}
+
+.form2 {
+    float:left;
+    margin-left:105px;
+    font-size:30px;
+    display:block;
+    background: #ececed;
+    padding: 15px 30px 15px;
+    text-decoration: none;
+    color: #4D4D4D;
+
+}
+
+.input {
+    font-size:20px;
+
+}
+
+.select {
+    font-size: 20px;
+
+}
